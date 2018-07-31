@@ -17,7 +17,7 @@ bool oa( char* a, char* b, int sofar ) {
 	
 	// end condition
 	if ( *a == '\0' || *b == '\0' ) {
-		if ( strlen( a ) + strlen( b ) + sofar > 1 ) return false;
+    if ( strlen( a ) + strlen( b ) + sofar > 1 ) return false;
 		else return true;
 	}
 
